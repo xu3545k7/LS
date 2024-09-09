@@ -1,0 +1,409 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: 無法開啟檔案 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/3.30.2/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含檔案: C:\\Users\\Ruix-Xuan Rao\\Documents\\happycamp2024\\hw1\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含檔案: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: 無法開啟檔案 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/3.30.2/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含檔案: C:\\Users\\Ruix-Xuan Rao\\Documents\\happycamp2024\\hw1\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含檔案: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:50 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-h19cyw"
+      binary: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-h19cyw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-h19cyw'
+        
+        Run Build Command(s): C:/Users/RUIX-X~1/DOWNLO~1/WINLIB~1.0-R/mingw64/bin/ninja.exe -v cmTC_0f5c4
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0f5c4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_0f5c4.dir\\ /FS -c "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0f5c4.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_0f5c4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_0f5c4.exe /implib:cmTC_0f5c4.lib /pdb:cmTC_0f5c4.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_0f5c4.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0f5c4.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_0f5c4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_0f5c4.exe /implib:cmTC_0f5c4.lib /pdb:cmTC_0f5c4.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        使用中的字碼頁: 950\x0d
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_0f5c4.dir/manifest.res CMakeFiles\\cmTC_0f5c4.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:50 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe"
+    directories:
+      source: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-k50hiv"
+      binary: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-k50hiv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-k50hiv'
+        
+        Run Build Command(s): C:/Users/RUIX-X~1/DOWNLO~1/WINLIB~1.0-R/mingw64/bin/ninja.exe -v cmTC_8ad79
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8ad79.dir\\testCXXCompiler.cxx.obj /FdCMakeFiles\\cmTC_8ad79.dir\\ /FS -c "C:\\Users\\Ruix-Xuan Rao\\Documents\\happycamp2024\\hw1\\CMakeFiles\\CMakeScratch\\TryCompile-k50hiv\\testCXXCompiler.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8ad79.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_8ad79.dir\\testCXXCompiler.cxx.obj  /out:cmTC_8ad79.exe /implib:cmTC_8ad79.lib /pdb:cmTC_8ad79.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_8ad79.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8ad79.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_8ad79.dir\\testCXXCompiler.cxx.obj  /out:cmTC_8ad79.exe /implib:cmTC_8ad79.lib /pdb:cmTC_8ad79.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        使用中的字碼頁: 950\x0d
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_8ad79.dir/manifest.res CMakeFiles\\cmTC_8ad79.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: 無法開啟檔案 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/3.30.2/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含檔案: C:\\Users\\Ruix-Xuan Rao\\Documents\\happycamp2024\\hw1\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含檔案: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: 無法開啟檔案 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/3.30.2/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:50 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含檔案: C:\\Users\\Ruix-Xuan Rao\\Documents\\happycamp2024\\hw1\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含檔案: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:50 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-2euosd"
+      binary: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-2euosd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-2euosd'
+        
+        Run Build Command(s): C:/Users/RUIX-X~1/DOWNLO~1/WINLIB~1.0-R/mingw64/bin/ninja.exe -v cmTC_1880f
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1880f.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_1880f.dir\\ /FS -c "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1880f.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_1880f.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_1880f.exe /implib:cmTC_1880f.lib /pdb:cmTC_1880f.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_1880f.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1880f.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_1880f.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_1880f.exe /implib:cmTC_1880f.lib /pdb:cmTC_1880f.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        使用中的字碼頁: 950\x0d
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_1880f.dir/manifest.res CMakeFiles\\cmTC_1880f.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Ruix-Xuan Rao/Downloads/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1/mingw64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:50 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x86/cl.exe"
+    directories:
+      source: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-c7mmx9"
+      binary: "C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-c7mmx9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Ruix-Xuan Rao/Documents/happycamp2024/hw1/CMakeFiles/CMakeScratch/TryCompile-c7mmx9'
+        
+        Run Build Command(s): C:/Users/RUIX-X~1/DOWNLO~1/WINLIB~1.0-R/mingw64/bin/ninja.exe -v cmTC_360d7
+        [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_360d7.dir\\testCXXCompiler.cxx.obj /FdCMakeFiles\\cmTC_360d7.dir\\ /FS -c "C:\\Users\\Ruix-Xuan Rao\\Documents\\happycamp2024\\hw1\\CMakeFiles\\CMakeScratch\\TryCompile-c7mmx9\\testCXXCompiler.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_360d7.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_360d7.dir\\testCXXCompiler.cxx.obj  /out:cmTC_360d7.exe /implib:cmTC_360d7.lib /pdb:cmTC_360d7.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_360d7.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Users\\Ruix-Xuan Rao\\Downloads\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64msvcrt-12.0.0-r1\\mingw64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_360d7.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_360d7.dir\\testCXXCompiler.cxx.obj  /out:cmTC_360d7.exe /implib:cmTC_360d7.lib /pdb:cmTC_360d7.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        使用中的字碼頁: 950\x0d
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_360d7.dir/manifest.res CMakeFiles\\cmTC_360d7.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
